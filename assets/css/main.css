@@ -33,13 +33,28 @@ header > a:visited {
 	color: hsl(0, 0%, 35%);
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+	/* margin-left: 0.8rem;
+	margin-right: 0.8rem; */
 }
 
 .comment {
 	display: block;
 	font-size: 1.3rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin: 1rem 2rem 1rem 2rem;
 }
+/*
+li {
+	list-style-type: none;
+}
+
+.book::before {
+	content: "📘";
+	margin-left: -2rem;
+	margin-right: 0.75rem;
+}
+
+.article::before {
+	content: "📝";
+	margin-left: -2rem;
+	margin-right: 0.75rem;
+} */
