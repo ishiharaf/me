@@ -38,3 +38,11 @@ header > a:visited {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
+
+#githubAvatar {
+	width: 10rem;
+	height: 10rem;
+	overflow: hidden;
+	border-radius: 50%;
+	border-color: 0.1rem solid #0a0908;
+}
