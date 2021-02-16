@@ -45,4 +45,5 @@ header > a:visited {
 	overflow: hidden;
 	border-radius: 50%;
 	border-color: 0.1rem solid #0a0908;
+	margin-top: 2rem;
 }
