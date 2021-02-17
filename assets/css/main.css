@@ -47,6 +47,13 @@ ul {
 	margin-bottom: 0.5rem;
 }
 
+.comment {
+	font-size: 1.2rem;
+	color: hsl(0, 0%, 15%);
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
 #avatarWrapper {
 	display: flex;
 	justify-content: center;
