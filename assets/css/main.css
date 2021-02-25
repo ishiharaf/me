@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	max-width: 80%;
+	max-width: 90%;
 	margin: 2rem auto;
 	line-height: 1.4;
 	text-align: left;
@@ -66,4 +66,10 @@ ul {
 	border-radius: 50%;
 	border-color: 0.1rem solid #0a0908;
 	margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		max-width: 100.24rem;
+	}
 }
