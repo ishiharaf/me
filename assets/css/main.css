@@ -40,36 +40,16 @@ ul {
 	padding-left: 3rem;
 }
 
-.subtitle {
-	font-size: 1.2rem;
-	color: hsl(0, 0%, 35%);
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-}
 
-.comment {
+.small {
 	font-size: 1.2rem;
 	color: hsl(0, 0%, 15%);
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 
-.tag {
-	font-size: 1.2rem;
-	border-radius: 3px;
-	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-	margin: 0 0.4rem 0 0;
-	display: inline-block;
-}
-
-.instrument {
-	color: hsl(0, 0%, 100%);
-	background-color: firebrick;
-}
-
-.composer {
-	color: hsl(0, 0%, 100%);
-	background-color: cornflowerblue;
+.subtitle {
+	color: hsl(0, 0%, 35%);
 }
 
 #avatarWrapper {
