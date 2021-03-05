@@ -1,18 +1,20 @@
 const getTags = () => {
 	const tagElements = document.getElementsByClassName("tag")
-	let tagArray = []
+	let instruments = []
 
 	for (let i = 0; i < tagElements.length; i++) {
 		const p = tagElements[i]
 		const spanList = p.children
 		for (let k = 0; k < spanList.length; k++) {
 			const span = spanList[k];
-			tagArray.push(span.innerHTML)
+			if (span.classList.contains("instrument")) {
+				instruments.push(span.innerHTML)
+			}
 		}
 	}
 
-	tagArray = new Set(tagArray)
-	return tagArray
+	instruments = new Set(instruments)
+	return instruments
 }
 
 const appendTags = (tagArray) => {
