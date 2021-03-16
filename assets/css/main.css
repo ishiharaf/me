@@ -52,6 +52,14 @@ ul {
 	color: hsl(0, 0%, 35%);
 }
 
+.fingering {
+	font-family: "Segoe UI Emoji";
+}
+
+p.fingering {
+	margin: 0 0 1.5rem 0;
+}
+
 #avatarWrapper {
 	display: flex;
 	justify-content: center;
